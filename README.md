@@ -1,19 +1,6 @@
 Run_Analysis.R -   READ.ME
 
 
-
-In the submission box, as well as the link, put some accompanying text on another line something like "tidy data as per the ReadMe that can be read into R with read.table(header=TRUE) {listing any settings you have changed from the default}" This is just to make it really easy for your reviewer.
-In the readMe in explaining what the script does put "and then generates a tidy data text file that meets the principles of a Tidy Data Set"
-the truly cunning may want to put in a citation to this discussion and/or Hadley's paper
-The codebook still has the specific description of the tidy data file contents (and you mention that it exists and it's role in the ReadMe)
-
-It also means that (I think) people should be reasonably generous in marking the tidy data aspects. Many forms are tidy, you have to do something like wind up with subject and activity in the same column to be untidy (which can happen with some methods), or a series of tables, or extra unlabelled columns (which can also happen with some ways of generating summaries if you do not then remove them afterwards). My own checklist is:
-
-Does it have headings so I know which columns are which.
-Are the variables in different columns (depending on the wide/long form)
-Are there no duplicate columns
-There is really not much more to tidy data
-
 ==================================================================
 Run_analysis.R script for summarizing the "Human Activity Recognition Using Smartphones Dataset Version 1.0" dataset
 ==================================================================
